@@ -1,0 +1,12 @@
+
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="testScripts.FacebookListBoxTest"/>
+      <class name="testScripts.IframeZohoLoginTest"/>
+      <class name="testScripts.NotClosingTheParentBrowserTest"/>
+      <class name="testScripts.HandlingNewTabTest"/>
+      <class name="testScripts.ChildBrowserPopUpTest"/>
+    </classes>
+  </test> 
+</suite> 

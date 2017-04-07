@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="testScripts.IframeZohoLoginTest">
+        <methods>
+          <include name="selectBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testScripts.IframeZohoLoginTest -->
+      <class name="testScripts.FacebookListBoxTest">
+        <methods>
+          <include name="beforeSuiteMethodToGenerateExtentReport"/>
+          <include name="selectBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testScripts.FacebookListBoxTest -->
+      <class name="testScripts.HandlingNewTabTest">
+        <methods>
+          <include name="newTab"/>
+          <include name="selectBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testScripts.HandlingNewTabTest -->
+      <class name="testScripts.NotClosingTheParentBrowserTest">
+        <methods>
+          <include name="selectBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testScripts.NotClosingTheParentBrowserTest -->
+      <class name="testScripts.ChildBrowserPopUpTest">
+        <methods>
+          <include name="selectBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testScripts.ChildBrowserPopUpTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
