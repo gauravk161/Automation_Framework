@@ -2,8 +2,6 @@ package genericMethods;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Scanner;
-
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
